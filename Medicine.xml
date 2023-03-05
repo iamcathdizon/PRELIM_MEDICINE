@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <Medicine>
-        <Philippines>
+<Medicine>
+    <Philippines>
+        <Common>
             <Medicine type="Cough">
                 <brand name="Robitusin">
                     <dosage_form>Syrup</dosage_form>
@@ -224,5 +225,6 @@
                                             <price>Ganaton 41.25</price>
                                         </price_list>
                             </Medicine>                                  
-        </Philippines>
-    </Medicine>
+        </Common>
+    </Philippines>
+</Medicine>
