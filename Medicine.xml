@@ -1,164 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <Philippines>
-        <Medicines>
+    <Medicine>
+        <Philippines>
             <Medicine type="Cough">
                 <brand name="Robitusin">
-                    <dosage form="Syrup" strength="100mg/5ml"/>
-                    <generic name="Dextromethorphan" strength="10mg"/>
-                    <generic name="Guaifenesin" strength="100mg"/>
+                    <dosage_form>Syrup</dosage_form>
+                    <dosage>100mg/5ml</dosage>
+                    <generic_name>Dextromethorphan</generic_name>
+                    <dosage>10mg</dosage>
+                    <generic_name>Guaifenesin</generic_name>
+                    <dosage>100mg</dosage>
                 </brand>
                 <brand name="Mucinex">
-                    <dosage form="Tablet" strength="600mg"/>
-                    <generic name="Guaifenesin" strength="600mg"/>
+                    <dosage_form>"</dosage_form>
+                    <dosage>60mg</dosage>
+                    <generic_name>Guaifenesin</generic_name>
+                    <dosage>600mg</dosage>
                 </brand>
                 <brand name="Strepsils">
-                    <dosage form="Lozenge" strength="8.75mg"/>
-                    <generic name="Dichlorobenzyl Alcohol" strength="1.2ml"/>
-                    <generic name="Amylmetacresol" strength="0.6mg"/>
+                    <dosage_form>Lozenge</dosage_form>
+                    <dosage>8.75mg</dosage>
+                    <generic_name>Dichlorobenzyl Alcohol</generic_name>
+                    <dosage>1.2ml</dosage>
+                    <generic_name>Amylmetacresol</generic_name>
+                    <dosage>0.6mg</dosage>
                 </brand>
                 <brand name="Ascof Ladundi">
-                    <dosage form="Syrup" strength="200mg/5ml"/>
-                    <genric name="Vitex Negudo" strength="1.67mg"/>
+                    <dosage_form>Syrup</dosage_form>
+                    <dosage>200mg/5ml</dosage>
+                    <generic_name>Vitex Negudo</generic_name>
+                    <dosage>1.67mg</dosage>
                 </brand>
                 <brand name="Solmux">
-                    <dosage form="Tablet" strength="500mg"/>
-                    <generic name="Carbocisteine" strength="500mg"/>
+                    <dosage_form>Tablet</dosage_form>
+                    <dosage>500mg</dosage>
+                    <generic_name>Carbocisteine</generic_name>
+                    <dosage>500mg</dosage>
                 </brand>
-                    <price>
-                        <price list="Robitussin" amaount="135"/>
-                        <price list="Mucinex" amount="45"/>
-                        <price list="Strepsils" amount="69"/>
-                        <price list="Ascof Lagundi" amount="350"/>
-                        <price list="Solmux" amount="56"/>
-                    </price>
+                    <price_list>
+                        <price>Robitussin 135</price>
+                        <price>Mucinex 45</price>
+                        <price>Strepsils 69</price>
+                        <price>Ascof Lagundi 350</price>
+                        <price>Solmux 56</price>
+                    </price_list>
             </Medicine>
                 <Medicine type="Fever">
                     <brand name="Biogesic">
-                        <dosage form="Tablet" strength="500mg"/>
-                        <generic name="Paracetamol" strength="500mg"/>
+                        <dosage_form>Tablet</dosage_form>
+                        <dosage>500mg</dosage>
+                        <generic_name>Paracetamol</generic_name>
+                        <dosage>500mg</dosage>
                     </brand>
                     <brand name="Tempra">
-                        <dosage form="Syrup" strength="250mg/5ml"/>
-                        <generic name="Paracetamol" strength="200mg"/>
+                        <dosage_form>Syrup</dosage_form>
+                        <dosage>250mg/5ml</dosage>
+                        <generic_name>Paracetamol</generic_name>
+                        <dosage>200mg</dosage>
                     </brand>
                     <brand name="Advil">
-                        <dosage form="Tablet" strength="200mg"/>
-                        <generic name="Ibuprofen" strength="200mg"/>
+                        <dosage_form>Tablet</dosage_form>
+                        <dosage>200mg</dosage>
+                        <generic_name>Ibuprofen</generic_name>
+                        <dosage>200mg</dosage>
                     </brand>
                     <brand name="Alaxan FR">
-                        <dosage form="Tablet" strength="500mg"/>
-                        <generic name="Ibuprofen" strength="500mg"/>
-                        <generic name="Paracetamol" strength="200mg"/>
+                        <dosage_form>Tablet</dosage_form>
+                        <dosage>500mg</dosage>
+                        <generic_name>Ibuprofen</generic_name>
+                        <dosage>500mg</dosage>
+                        <generic_name>Paracetamol</generic_name>
+                        <dosage>200mg</dosage>
                     </brand>
                     <brand name="Decolgen">
-                        <dosage form="Tablet" strength="500mg"/>
-                        <generic name="Paracetamol" strength="500mg"/>
-                        <generic name="Phenylephrine" strength="10mg"/>
-                        <generic name="Chlorphenamie" strength="2mg"/>
+                        <dosage_form>Tablet</dosage_form>
+                        <dosage>500mg</dosage>
+                        <generic_name>Paracetamol</generic_name>
+                        <dosage>500mg</dosage>
+                        <generic_name>Phenylephrine</generic_name>
+                        <dosage>10mg</dosage>
+                        <generic_name>Chlorphenamie</generic_name>
+                        <dosage>2mg</dosage>
                     </brand>
-                        <price>
-                            <price list="Biogesic" amount="45"/>
-                            <price list="Tempra" amount="81.25"/>
-                            <price list="Advil" amount="170"/>
-                            <price list="Alaxan FR" amount="80"/>
-                            <price list="Decolgen" amount="130"/>
-                        </price>
+                        <price_list>
+                            <price>Biogesic 45</price>
+                            <price>Tempra 81.25</price>
+                            <price>Advil 170</price>
+                            <price>Alaxan FR 80</price>
+                            <price>Decolgen 130</price>
+                        </price_list>
                 </Medicine>
                     <Medicine type="Headache">
                         <brand name="Saridon">
-                            <dosage form="Tablet" strength="250mg/150mg"/>
-                            <generic name="Paracetamol" strength="250mg"/>
-                            <generic name="Propyphenazone" strength="150mg"/>
-                            <generic name="Caffeine" strength="50mg"/>
+                            <dosage_form>Tablet</dosage_form>
+                            <dosage>250mg/150mg</dosage>
+                            <generic_name>Paracetamol</generic_name>
+                            <dosage>250mg</dosage>
+                            <generic_name>Propyphenazone</generic_name>
+                            <dosage>150mg</dosage>
+                            <generic_name>Caffeine</generic_name>
+                            <dosage>50mg</dosage>
                         </brand>
                         <brand name="Ponstan">
-                            <dosage form="Capsule" strength="500mg"/>
-                            <generic name="Mefenamic Acid" strength="500mg"/>
+                            <dosage_form>Capsule</dosage_form>
+                            <dosage>500mg</dosage>
+                            <generic_name>Mefenamic Acid</generic_name>
+                            <dosage>500mg</dosage>
                         </brand>
                         <brand name="Naproxen">
-                            <dosage form="Tablet" strength="500mg"/>
-                            <generic name="Naproxen" strength="500mg"/>
+                            <dosage_form>Tablet</dosage_form>
+                            <dosage>500mg</dosage>
+                            <generic_name>Naproxen</generic_name>
+                            <dosage>500mg</dosage>
                         </brand>
                         <brand name="Kremil-S">
-                            <dosage form="Tablet" strength="1000mg/200mg"/>
-                            <generic name="Aluminum Hydroxide" strength="1000mg"/>
-                            <generic name="Magnesium Hyrdoxide" strength="200mg"/>
+                            <dosage_form>Tablet</dosage_form>
+                            <dosage>1000mg/200mg</dosage>
+                            <generic_name>Aluminum Hydroxide</generic_name>
+                            <dosage>1000mg</dosage>
+                            <generic_name>Magnesium Hyrdoxide</generic_name>
+                            <dosage>200mg</dosage>
                         </brand>
                         <brand name="Alaxan">
-                            <dosage form="Tablet" strength="325mg/200mg"/>
-                            <generic name="Ibuprofen" strength="325mg"/>
-                            <generic name="Paracetamol" strength="200mg"/>
+                            <dosage_form>Tablet</dosage_form>
+                            <dosage>325mg/200mg</dosage>
+                            <generic_name>Ibuprofen</generic_name>
+                            <dosage>325mg</dosage>
+                            <generic_name>Paracetamol</generic_name>
+                            <dosage>200mg</dosage>
                         </brand>
-                            <price>
-                                <price list="Saridon" amount="135"/>
-                                <price list="Ponstan" amount="39.25"/>
-                                <price list="Naproxen" amount="107"/>
-                                <price list="Kremil-S" amount="10.25"/>
-                                <price list="Alaxan" amount="95.75"/>
-                            </price>
+                            <price_list>
+                                <price>Saridon 135</price>
+                                <price>Ponstan 39.25</price>
+                                <price>Naproxen 107</price>
+                                <price>Kremil-S 10.25</price>
+                                <price>Alaxan 95.75</price>
+                            </price_list>
                     </Medicine>
                             <Medicine type="Toothache">
                                 <brand name="Decolgen">
-                                    <dosage form="Tablet" strength="500mg"/>
-                                    <generic name="Paracetamol" strength="500mg"/>
-                                    <generic name="Phenylephrine" strength="10mg"/>
-                                    <generic name="Chlorphenamie" strength="2mg"/>
+                                    <dosage_form>Tablet</dosage_form>
+                                    <dosage></dosage>
+                                    <generic_name>Paracetamol</generic_name>
+                                    <dosage>500mg</dosage>
+                                    <generic_name>Phenylephrine</generic_name>
+                                    <dosage>10mg</dosage>
+                                    <generic_name>Chlorphenamie</generic_name>
+                                    <dosage>2mg</dosage>
                                 </brand>
                                 <brand name="Bonamie">
-                                    <dosage form="Tablet" strength="25mg"/>
-                                    <generic name="Meclizine" strength="25mg"/>
+                                    <dosage_form>Tablet</dosage_form>
+                                    <dosage>25mg</dosage>
+                                    <generic_name>Meclizine</generic_name>
+                                    <dosage>25mg</dosage>
                                 </brand>
                                 <brand name="Motrin">
-                                    <dosage form="Tablet" strength="200mg"/>
-                                    <generic name="Ibuprofen" strength="200mg"/>
+                                    <dosage_form>Tablet</dosage_form>
+                                    <dosage>200mg</dosage>
+                                    <generic_name>Ibuprofen</generic_name>
+                                    <dosage>200mg</dosage>
                                 </brand>
                                 <brand name="Tylenol">
-                                    <dosage form="Tablet" strength="500mg"/>
-                                    <generic name="Acetaminophen" strength="500mg"/>
+                                    <dosage_form>Tablet</dosage_form>
+                                    <dosage>500mg</dosage>
+                                    <generic_name>Acetaminophen</generic_name>
+                                    <dosage>500mg</dosage>
                                 </brand>
                                 <brand name="Orajel">
-                                    <dosage form="Gel Tablet" strength="20%"/>
-                                    <generic name="Benzocaine" strength="20%"/>
+                                    <dosage_form>Gel Tablet</dosage_form>
+                                    <dosage>20%</dosage>
+                                    <generic_name>Benzocaine</generic_name>
+                                    <dosage>20%</dosage>
                                 </brand>
-                                    <price>
-                                        <price list="Decolgen" amount="130"/>
-                                        <price list="Bonamie" amount="13.75"/>
-                                        <price list="Motrin" amount="87.50"/>
-                                        <price list="Tylenol" amount="438"/>
-                                        <price list="Orajel" amount="185"/>
-                                    </price>
+                                    <price_list>
+                                        <price>Decolgen 130</price>
+                                        <price>Bonamie 13.75</price>
+                                        <price>Motrin 87.50</price>
+                                        <price>Tylenol 438</price>
+                                        <price>Orajel 185</price>
+                                    </price_list>
                             </Medicine>
                                 <Medicine type="Stomachache">
                                     <brand name="Buscopan">
-                                        <dosage form="Tablet" strength="10mg"/>
-                                        <generic name="Hyoscine Butylbromide" strength="10mg"/>
+                                        <dosage_form>Tablet</dosage_form>
+                                        <dosage>10mg</dosage>
+                                        <generic_name>Hyoscine Butylbromide</generic_name>
+                                        <dosage>10mg</dosage>
                                     </brand>
                                     <brand name="Loperamide">
-                                        <dosage form="Capsule" strength="2mg"/>
-                                        <generic name="Loperamide" strength="2mg"/>
+                                        <dosage_form>Capsule</dosage_form>
+                                        <dosage>2mg</dosage>
+                                        <generic_name>Loperamide</generic_name>
+                                        <dosage>2mg</dosage>
                                     </brand>
                                     <brand name="Antacid">
-                                        <dosage form="Liquid Suspension" strength="500mg/5ml"/>
-                                        <generic name="Aluminum Hyrdoxide" strength="200mg"/>
-                                        <generic name="Magnesium Hydroxide" strength="200mg"/>
-                                        <generic name="Simethicone" strength="100mg"/>
+                                        <dosage_form>Liquid Suspension</dosage_form>
+                                        <dosage>500mg/5ml</dosage>
+                                        <generic_name>Aluminum Hyrdoxide</generic_name>
+                                        <dosage>200mg</dosage>
+                                        <generic_name>Magnesium Hydroxide</generic_name>
+                                        <dosage>200mg</dosage>
+                                        <generic_name>Simethicone</generic_name>
+                                        <dosage>100mg</dosage>
                                     </brand>
                                     <brand name="Kremil-S">
-                                        <dosage form="Tablet" strength="1000mg/200mg"/>
-                                        <generic name="Aluminum Hydroxide" strength="1000mg"/>
-                                        <generic name="Magnesium Hydroxide" strength="200mg"/>
+                                        <dosage_form>Tablet</dosage_form>
+                                        <dosage>1000mg/200mg</dosage>
+                                        <generic_name>Aluminum Hydroxide</generic_name>
+                                        <dosage>1000mg</dosage>
+                                        <generic_name>Magnesium Hydroxide</generic_name>
+                                        <dosage>200mg</dosage>
                                     </brand>
                                     <brand name="Ganaton">
-                                        <dosage form="Capsule" strength="50mg"/>
-                                        <generic name="Itopride Hyrdochloride" strength="50mg"/>
+                                        <dosage_form>Capsule</dosage_form>
+                                        <dosage>50mg</dosage>
+                                        <generic_name>Itopride Hyrdochloride</generic_name>
+                                        <dosage>50mg</dosage>
                                     </brand>
-                                        <price>
-                                            <price list="Buscopan" amount="101"/>
-                                            <price list="Loperamide" amount="18.95"/>
-                                            <price list="Antacid" amount="235"/>
-                                            <price list="Kremil-S" amount="10.25"/>
-                                            <price list="Ganaton" amount="41.25"/>
-                                        </price>
+                                        <price_list>
+                                            <price>Buscopan 101</price>
+                                            <price>Loperamide 18.95</price>
+                                            <price>Antacid 235</price>
+                                            <price>Kremil-S 10.25</price>
+                                            <price>Ganaton 41.25</price>
+                                        </price_list>
                             </Medicine>                                  
-        </Medicines>
-    </Philippines>
+        </Philippines>
+    </Medicine>
