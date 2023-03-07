@@ -24,6 +24,13 @@
                     <dosage form="Tablet" strength="500mg"/>
                     <generic name="Carbocisteine" strength="500mg"/>
                 </brand>
+                    <price>
+                        <price list="Robitussin" amaount="135"/>
+                        <price list="Mucinex" amount="45"/>
+                        <price list="Strepsils" amount="69"/>
+                        <price list="Ascof Lagundi" amount="350"/>
+                        <price list="Solmux" amount="56"/>
+                    </price>
             </Medicine>
                 <Medicine type="Fever">
                     <brand name="Biogesic">
@@ -49,6 +56,13 @@
                         <generic name="Phenylephrine" strength="10mg"/>
                         <generic name="Chlorphenamie" strength="2mg"/>
                     </brand>
+                        <price>
+                            <price list="Biogesic" amount="45"/>
+                            <price list="Tempra" amount="81.25"/>
+                            <price list="Advil" amount="170"/>
+                            <price list="Alaxan FR" amount="80"/>
+                            <price list="Decolgen" amount="130"/>
+                        </price>
                 </Medicine>
                     <Medicine type="Headache">
                         <brand name="Saridon">
@@ -70,6 +84,18 @@
                             <generic name="Aluminum Hydroxide" strength="1000mg"/>
                             <generic name="Magnesium Hyrdoxide" strength="200mg"/>
                         </brand>
+                        <brand name="Alaxan">
+                            <dosage form="Tablet" strength="325mg/200mg"/>
+                            <generic name="Ibuprofen" strength="325mg"/>
+                            <generic name="Paracetamol" strength="200mg"/>
+                        </brand>
+                            <price>
+                                <price list="Saridon" amount="135"/>
+                                <price list="Ponstan" amount="39.25"/>
+                                <price list="Naproxen" amount="107"/>
+                                <price list="Kremil-S" amount="10.25"/>
+                                <price list="Alaxan" amount="95.75"/>
+                            </price>
                     </Medicine>
                             <Medicine type="Toothache">
                                 <brand name="Decolgen">
@@ -94,6 +120,13 @@
                                     <dosage form="Gel Tablet" strength="20%"/>
                                     <generic name="Benzocaine" strength="20%"/>
                                 </brand>
+                                    <price>
+                                        <price list="Decolgen" amount="130"/>
+                                        <price list="Bonamie" amount="13.75"/>
+                                        <price list="Motrin" amount="87.50"/>
+                                        <price list="Tylenol" amount="438"/>
+                                        <price list="Orajel" amount="185"/>
+                                    </price>
                             </Medicine>
                                 <Medicine type="Stomachache">
                                     <brand name="Buscopan">
@@ -104,7 +137,7 @@
                                         <dosage form="Capsule" strength="2mg"/>
                                         <generic name="Loperamide" strength="2mg"/>
                                     </brand>
-                                    <brand name="Antacil">
+                                    <brand name="Antacid">
                                         <dosage form="Liquid Suspension" strength="500mg/5ml"/>
                                         <generic name="Aluminum Hyrdoxide" strength="200mg"/>
                                         <generic name="Magnesium Hydroxide" strength="200mg"/>
@@ -119,6 +152,13 @@
                                         <dosage form="Capsule" strength="50mg"/>
                                         <generic name="Itopride Hyrdochloride" strength="50mg"/>
                                     </brand>
+                                        <price>
+                                            <price list="Buscopan" amount="101"/>
+                                            <price list="Loperamide" amount="18.95"/>
+                                            <price list="Antacid" amount="235"/>
+                                            <price list="Kremil-S" amount="10.25"/>
+                                            <price list="Ganaton" amount="41.25"/>
+                                        </price>
                             </Medicine>                                  
         </Medicines>
     </Philippines>
