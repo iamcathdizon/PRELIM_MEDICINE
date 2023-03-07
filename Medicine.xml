@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <Philippines>
+        <Medicines>
+            <Medicine type="Cough">
+                <brand name="Robitusin">
+                    <dosage form="Syrup" strength="100mg/5ml"/>
+                    <generic name="Dextromethorphan" strength="10mg"/>
+                    <generic name="Guaifenesin" strength="100mg"/>
+                </brand>
+                <brand name="Mucinex">
+                    <dosage form="Tablet" strength="600mg"/>
+                    <generic name="Guaifenesin" strength="600mg"/>
+                </brand>
+                <brand name="Strepsils">
+                    <dosage form="Lozenge" strength="8.75mg"/>
+                    <generic name="Dichlorobenzyl Alcohol" strength="1.2ml"/>
+                    <generic name="Amylmetacresol" strength="0.6mg"/>
+                </brand>
+                <brand name="Ascof Ladundi">
+                    <dosage form="Syrup" strength="200mg/5ml"/>
+                    <genric name="Vitex Negudo" strength="1.67mg"/>
+                </brand>
+                <brand name="Solmux">
+                    <dosage form="Tablet" strength="500mg"/>
+                    <generic name="Carbocisteine" strength="500mg"/>
+                </brand>
+            </Medicine>
+                <Medicine type="Fever">
+                    <brand name="Biogesic">
+                        <dosage form="Tablet" strength="500mg"/>
+                        <generic name="Paracetamol" strength="500mg"/>
+                    </brand>
+                    <brand name="Tempra">
+                        <dosage form="Syrup" strength="250mg/5ml"/>
+                        <generic name="Paracetamol" strength="200mg"/>
+                    </brand>
+                    <brand name="Advil">
+                        <dosage form="Tablet" strength="200mg"/>
+                        <generic name="Ibuprofen" strength="200mg"/>
+                    </brand>
+                    <brand name="Alaxan FR">
+                        <dosage form="Tablet" strength="500mg"/>
+                        <generic name="Ibuprofen" strength="500mg"/>
+                        <generic name="Paracetamol" strength="200mg"/>
+                    </brand>
+                    <brand name="Decolgen">
+                        <dosage form="Tablet" strength="500mg"/>
+                        <generic name="Paracetamol" strength="500mg"/>
+                        <generic name="Phenylephrine" strength="10mg"/>
+                        <generic name="Chlorphenamie" strength="2mg"/>
+                    </brand>
+                </Medicine>
+                    <Medicine type="Headache">
+                        <brand name="Saridon">
+                            <dosage form="Tablet" strength="250mg/150mg"/>
+                            <generic name="Paracetamol" strength="250mg"/>
+                            <generic name="Propyphenazone" strength="150mg"/>
+                            <generic name="Caffeine" strength="50mg"/>
+                        </brand>
+                        <brand name="Ponstan">
+                            <dosage form="Capsule" strength="500mg"/>
+                            <generic name="Mefenamic Acid" strength="500mg"/>
+                        </brand>
+                        <brand name="Naproxen">
+                            <dosage form="Tablet" strength="500mg"/>
+                            <generic name="Naproxen" strength="500mg"/>
+                        </brand>
+                        <brand name="Kremil-S">
+                            <dosage form="Tablet" strength="1000mg/200mg"/>
+                            <generic name="Aluminum Hydroxide" strength="1000mg"/>
+                            <generic name="Magnesium Hyrdoxide" strength="200mg"/>
+                        </brand>
+                    </Medicine>
+                            <Medicine type="Toothache">
+                                <brand name="Decolgen">
+                                    <dosage form="Tablet" strength="500mg"/>
+                                    <generic name="Paracetamol" strength="500mg"/>
+                                    <generic name="Phenylephrine" strength="10mg"/>
+                                    <generic name="Chlorphenamie" strength="2mg"/>
+                                </brand>
+                                <brand name="Bonamie">
+                                    <dosage form="Tablet" strength="25mg"/>
+                                    <generic name="Meclizine" strength="25mg"/>
+                                </brand>
+                                <brand name="Motrin">
+                                    <dosage form="Tablet" strength="200mg"/>
+                                    <generic name="Ibuprofen" strength="200mg"/>
+                                </brand>
+                                <brand name="Tylenol">
+                                    <dosage form="Tablet" strength="500mg"/>
+                                    <generic name="Acetaminophen" strength="500mg"/>
+                                </brand>
+                                <brand name="Orajel">
+                                    <dosage form="Gel Tablet" strength="20%"/>
+                                    <generic name="Benzocaine" strength="20%"/>
+                                </brand>
+                            </Medicine>
+                                <Medicine type="Stomachache">
+                                    <brand name="Buscopan">
+                                        <dosage form="Tablet" strength="10mg"/>
+                                        <generic name="Hyoscine Butylbromide" strength="10mg"/>
+                                    </brand>
+                                    <brand name="Loperamide">
+                                        <dosage form="Capsule" strength="2mg"/>
+                                        <generic name="Loperamide" strength="2mg"/>
+                                    </brand>
+                                    <brand name="Antacil">
+                                        <dosage form="Liquid Suspension" strength="500mg/5ml"/>
+                                        <generic name="Aluminum Hyrdoxide" strength="200mg"/>
+                                        <generic name="Magnesium Hydroxide" strength="200mg"/>
+                                        <generic name="Simethicone" strength="100mg"/>
+                                    </brand>
+                                    <brand name="Kremil-S">
+                                        <dosage form="Tablet" strength="1000mg/200mg"/>
+                                        <generic name="Aluminum Hydroxide" strength="1000mg"/>
+                                        <generic name="Magnesium Hydroxide" strength="200mg"/>
+                                    </brand>
+                                    <brand name="Ganaton">
+                                        <dosage form="Capsule" strength="50mg"/>
+                                        <generic name="Itopride Hyrdochloride" strength="50mg"/>
+                                    </brand>
+                            </Medicine>                                  
+        </Medicines>
+    </Philippines>
