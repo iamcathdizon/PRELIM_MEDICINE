@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Medicine>
-    <Philippines>
-        <Common>
-            <Medicine type="Cough">
-                <brand name="Robitusin">
-                    <dosage_form>Syrup</dosage_form>
-                    <dosage>100mg/5ml</dosage>
-                    <generic_name>Dextromethorphan</generic_name>
-                    <dosage>10mg</dosage>
-                    <generic_name>Guaifenesin</generic_name>
-                    <dosage>100mg</dosage>
-                </brand>
+    <Common>
+        <Philippines>
+             <Medicine>
+                  <Medicines type="Cough">
+                       <brand name="Robitusin">
+                           <dosage_form>Syrup</dosage_form>
+                           <dosage>100mg/5ml</dosage>
+                           <generic_name>Dextromethorphan</generic_name>
+                           <dosage>10mg</dosage>
+                           <generic_name>Guaifenesin</generic_name>
+                           <dosage>100mg</dosage>
+                       </brand>
                 <brand name="Mucinex">
                     <dosage_form>"</dosage_form>
                     <dosage>60mg</dosage>
@@ -45,52 +46,52 @@
                         <price>Solmux 56</price>
                     </price_list>
             </Medicine>
-                <Medicine type="Fever">
-                    <brand name="Biogesic">
-                        <dosage_form>Tablet</dosage_form>
-                        <dosage>500mg</dosage>
-                        <generic_name>Paracetamol</generic_name>
-                        <dosage>500mg</dosage>
-                    </brand>
-                    <brand name="Tempra">
-                        <dosage_form>Syrup</dosage_form>
-                        <dosage>250mg/5ml</dosage>
-                        <generic_name>Paracetamol</generic_name>
-                        <dosage>200mg</dosage>
-                    </brand>
-                    <brand name="Advil">
-                        <dosage_form>Tablet</dosage_form>
-                        <dosage>200mg</dosage>
-                        <generic_name>Ibuprofen</generic_name>
-                        <dosage>200mg</dosage>
-                    </brand>
-                    <brand name="Alaxan FR">
-                        <dosage_form>Tablet</dosage_form>
-                        <dosage>500mg</dosage>
-                        <generic_name>Ibuprofen</generic_name>
-                        <dosage>500mg</dosage>
-                        <generic_name>Paracetamol</generic_name>
-                        <dosage>200mg</dosage>
-                    </brand>
-                    <brand name="Decolgen">
-                        <dosage_form>Tablet</dosage_form>
-                        <dosage>500mg</dosage>
-                        <generic_name>Paracetamol</generic_name>
-                        <dosage>500mg</dosage>
-                        <generic_name>Phenylephrine</generic_name>
-                        <dosage>10mg</dosage>
-                        <generic_name>Chlorphenamie</generic_name>
-                        <dosage>2mg</dosage>
-                    </brand>
-                        <price_list>
-                            <price>Biogesic 45</price>
-                            <price>Tempra 81.25</price>
-                            <price>Advil 170</price>
-                            <price>Alaxan FR 80</price>
-                            <price>Decolgen 130</price>
-                        </price_list>
-                </Medicine>
-                    <Medicine type="Headache">
+       <Medicine type="Fever">
+              <brand name="Biogesic">
+                  <dosage_form>Tablet</dosage_form>
+                  <dosage>500mg</dosage>
+                  <generic_name>Paracetamol</generic_name>
+                   <dosage>500mg</dosage>
+               </brand>
+              <brand name="Tempra">
+                  <dosage_form>Syrup</dosage_form>
+                  <dosage>250mg/5ml</dosage>
+                  <generic_name>Paracetamol</generic_name>
+                  <dosage>200mg</dosage>
+               </brand>
+              <brand name="Advil">
+                   <dosage_form>Tablet</dosage_form>
+                   <dosage>200mg</dosage>
+                   <generic_name>Ibuprofen</generic_name>
+                   <dosage>200mg</dosage>
+              </brand>
+             <brand name="Alaxan FR">
+                   <dosage_form>Tablet</dosage_form>
+                   <dosage>500mg</dosage>
+                   <generic_name>Ibuprofen</generic_name>
+                   <dosage>500mg</dosage>
+                   <generic_name>Paracetamol</generic_name>
+                   <dosage>200mg</dosage>
+             </brand>
+             <brand name="Decolgen">
+                   <dosage_form>Tablet</dosage_form>
+                   <dosage>500mg</dosage>
+                   <generic_name>Paracetamol</generic_name>
+                   <dosage>500mg</dosage>
+                   <generic_name>Phenylephrine</generic_name>
+                   <dosage>10mg</dosage>
+                   <generic_name>Chlorphenamie</generic_name>
+                   <dosage>2mg</dosage>
+              </brand>
+                <price_list>
+                     <price>Biogesic 45</price>
+                     <price>Tempra 81.25</price>
+                     <price>Advil 170</price>
+                     <price>Alaxan FR 80</price>
+                     <price>Decolgen 130</price>
+             </price_list>
+         </Medicine>
+                 <Medicine type="Headache">
                         <brand name="Saridon">
                             <dosage_form>Tablet</dosage_form>
                             <dosage>250mg/150mg</dosage>
@@ -223,8 +224,10 @@
                                             <price>Antacid 235</price>
                                             <price>Kremil-S 10.25</price>
                                             <price>Ganaton 41.25</price>
+             
                                         </price_list>
-                            </Medicine>                                  
-        </Common>
-    </Philippines>
+                                   </Medicine>  
+             <Medicine>                   
+        </Philippines>
+    </Common>
 </Medicine>
