@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Medicine>
-    <Common>
+    <Medicine_Type>
         <Philippines>
              <Medicine>
                   <Medicines type="Cough">
@@ -229,5 +229,5 @@
                                    </Medicine>  
              <Medicine>                   
         </Philippines>
-    </Common>
+    </Medicine_Type>
 </Medicine>
